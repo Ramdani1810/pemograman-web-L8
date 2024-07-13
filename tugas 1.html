@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Foto Gallery</title>
+ <script src="Gallery css.css"></script>
+ <link rel="stylesheet" href="Gallery js.js"></link>
+   
+</head>
+<body>
+ <h1>My Gallery</h1>
+ <div class="gallery">
+    <img src="BRT.jpg" alt="Photo 1" onclick="openbox('BRT.jpg')">
+    <img src="baslu.JPG" alt="Photo 1" onclick="openbox('baslu.jpg')">
+    <img src="curug.jpg" alt="Photo 1" onclick="openbox('curug.jpg')">
+    <img src="curug 2.PNG" alt="Photo 1" onclick="openbox('curug 2.PNG')">
+
+ </div>
+ <div id="shadowing" onclick="closebox()"></div>
+ <div id="box">
+ <div id="boxtitle"></div>
+ <div id="boxcontent"></div>
+ <button onclick="closebox()">Close</button>
+ </div>
+</body>
+</html>
